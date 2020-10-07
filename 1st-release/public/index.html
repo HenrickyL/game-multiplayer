@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Multiplayer</title>
+    <link rel="stylesheet" href="./client.css">
+
+
+</head>
+<body>
+    <canvas id='screen' width="20px" height="20px"></canvas>
+    <div>
+        <b>SCORE:</b>
+        <div id='score'>0</div>
+    </div>
+    <!-- <label for="client">UserName</label>
+    <input type="text" id="client">
+     -->
+</body>
+<!-- <script type='module' src="./keybordListener.js"></script> -->
+<!-- <script type="module" src="./game.js"></script> -->
+<!-- <script type="module" src="./renderScreen.js"></script> -->
+<script src="/socket.io/socket.io.js"></script>
+<script type='module' src="./client.js"></script>
+</html>
